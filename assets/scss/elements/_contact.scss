@@ -123,11 +123,24 @@ textarea {
 
 .one-page {
 
-   min-height: 100vh;
+  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
+
+.max-width {
+
+  width: 100vw;
+}
+
+.max-height {
+
+}
+
 
 .lock-bottom {
   bottom: 0;
