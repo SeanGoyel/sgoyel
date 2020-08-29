@@ -26,7 +26,7 @@ class Portfolio extends Component{
                 <PageHelmet pageTitle='Eskil' />
                 <HeaderWhite homeLink="/" logo="symbol-dark" color="color-black"/>
                 {/* Start Breadcrump Area */}
-                <Breadcrumb title={'Eskil'}   />
+                <Breadcrumb title={'Eskil'}  details={'E-commerce Website Desgin'} />
                 {/* End Breadcrump Area */}
                     {/* Start Portfolio Details */}
                     <div className="rn-portfolio-details ptb--120 bg_color--4">
@@ -59,7 +59,9 @@ class Portfolio extends Component{
 
 
                                                 <div className="thumb mb--30 center">
-                                                    <a href="https://seangoyel.github.io/SortVis/" target="_blank"><img src="/assets/images/portfolio/p4-image.png" alt="Portfolio Images"/></a>
+                                                    <a href="https://seangoyel.github.io/SortVis/" target="_blank">
+                                                      <img src={`${process.env.PUBLIC_URL}/assets/images/portfolio/p4-image.png`} alt="Portfolio Image"/>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>

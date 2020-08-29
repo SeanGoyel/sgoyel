@@ -21,7 +21,7 @@ class Portfolio extends Component{
                 <PageHelmet pageTitle='Foodimize' />
                 <HeaderWhite homeLink="/" logo="symbol-dark" color="color-black"/>
                 {/* Start Breadcrump Area */}
-                <Breadcrumb title={'Foodimize'}   />
+                <Breadcrumb title={'Foodimize'} details={'Food Consumption Tracker'}  />
                 {/* End Breadcrump Area */}
                     {/* Start Portfolio Details */}
                     <div className="rn-portfolio-details ptb--120 bg_color--4">
@@ -65,7 +65,7 @@ class Portfolio extends Component{
                                                 <div className="port-view">
                                                     <h4>
                                                       <div className="portfolio-view-list service-style--2 d-flex flex-wrap">
-                                                         <img src="/assets/images/portfolio/p3-image.png"/>
+                                                         <img src={`${process.env.PUBLIC_URL}/assets/images/portfolio/p3-image.png`} alt="Portfolio Image"/>
                                                       </div>
                                                     </h4>
 

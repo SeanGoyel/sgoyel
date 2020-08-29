@@ -61,7 +61,7 @@ const Home = () => {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className={`inner ${value.textPosition}`}>
-                                                <h1 className="title">Hi, I’m Sean Goyel<br/>
+                                                <h1 className="title" >Hi, I’m Sean Goyel<br/>
                                                 <TextLoop>
                                                     <span> Developer.</span>
                                                     <span> Student.</span>
@@ -93,7 +93,7 @@ const Home = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/me.jpg" alt="About Images"/>
+                                        <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/images/me.jpg`} alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">

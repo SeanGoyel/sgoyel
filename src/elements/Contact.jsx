@@ -6,19 +6,9 @@ import FooterTwo from "../component/footer/FooterTwo";
 import Particles from 'react-particles-js';
 
 class Contact extends Component{
-    static defaultProps = {
-        center: {
-            lat: 59.95,
-            lng: 30.33
-        },
-        zoom: 11
-    };
 
     render(){
         return(
-
-
-
 
           <div className="one-page active-dark" id="contact">
 
@@ -26,8 +16,9 @@ class Contact extends Component{
 
                 <HeaderNotHome homeLink="/" logo="symbol-dark" color="color-white"/>
 
-                <div className="slider-activation max-width slider-creative-agency with-particles">
+                <div className="slider-activation slider-creative-agency with-particles max-width">
                     <div className="frame-layout__particles">
+                    <div calssName="max-height">
                       <Particles
                           params={{
                               "particles": {
@@ -52,10 +43,7 @@ class Contact extends Component{
                           }}
                       />
                     </div>
-
-
-
-
+                    </div>
 
                  {/* Start Breadcrump Area */}
 

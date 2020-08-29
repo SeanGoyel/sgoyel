@@ -20,7 +20,7 @@ class Portfolio extends Component{
                 <PageHelmet pageTitle='Picture Run' />
                 <HeaderWhite homeLink="/" logo="symbol-dark" color="color-black"/>
                 {/* Start Breadcrump Area */}
-                <Breadcrumb title={'Picture Run'}   />
+                <Breadcrumb title={'Picture Run'} details={'Platform game with custom levels which players can design using everyday objects found in the real world'}  />
                 {/* End Breadcrump Area */}
 
                     {/* Start Portfolio Details */}
@@ -68,7 +68,7 @@ class Portfolio extends Component{
                                                     <div className="related-work text-center mt--30">
                                                         <div className="thumb">
                                                             <a href="/portfolio-details">
-                                                                <img src="/assets/images/portfolio/p2-Example-Win.gif"/>
+                                                                <img src={`${process.env.PUBLIC_URL}/assets/images/portfolio/p2-Example-Win.gif`} alt="Portfolio Image"/>
                                                             </a>
                                                         </div>
                                                     </div>
@@ -79,7 +79,7 @@ class Portfolio extends Component{
                                                     <div className="related-work text-center mt--30">
                                                         <div className="thumb">
                                                             <a href="/portfolio-details">
-                                                                <img src="/assets/images/portfolio/p2-Example-Dead.gif"/>
+                                                                <img src={`${process.env.PUBLIC_URL}/assets/images/portfolio/p2-Example-Dead.gif`} alt="Portfolio Image"/>
                                                             </a>
                                                         </div>
 
