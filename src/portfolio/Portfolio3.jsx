@@ -17,7 +17,7 @@ class Portfolio extends Component{
         return(
             <React.Fragment>
               <div id="personal-project">
-              </div>
+
                 <PageHelmet pageTitle='Foodimize' />
                 <HeaderWhite homeLink="/" logo="symbol-dark" color="color-black"/>
                 {/* Start Breadcrump Area */}
@@ -34,7 +34,7 @@ class Portfolio extends Component{
                                             <br></br>
                                             <div className="portfolio-view-list service-style--2 d-flex flex-wrap" color="color-white">
                                               <div className="port-view">
-                                                  <h4>Foodamize is an application which gives the user the ability to see the effects and impacts of the food they eat. This application will record food along with the effects it has on the individual who consumes it. The collected data will be organized in a manner which provides users with the insight of which foods should be avoided and which should be ingested. </h4>
+                                                  <h4>Foodimize is an application which gives the user the ability to see the effects and impacts of the food they eat. This application will record food along with the effects it has on the individual who consumes it. The collected data will be organized in a manner which provides users with the insight of which foods should be avoided and which should be ingested. </h4>
                                                 </div>
                                               </div>
                                               <br></br>
@@ -107,8 +107,9 @@ class Portfolio extends Component{
                         </ScrollToTop>
                     </div>
                     {/* End Back To Top */}
-                    <div id="contact">
+                    <div>
                         <CallAction />
+                    </div>
                     </div>
 
             </React.Fragment>

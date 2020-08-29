@@ -2,7 +2,8 @@
 Call To Action Wrapper
 -----------------------------*/
 .call-to-action {
-    background: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);
+    background: #F9004D;
+    // F9004d
     position: relative;
     z-index: 2;
     &::before {
@@ -36,7 +37,7 @@ Call To Action Wrapper
                 line-height: 70px;
             }
         }
-        a {
+        h3 {
             &.rn-button-style--2 {
                 margin-top: 20px;
                 margin-bottom: 20px;

@@ -15,13 +15,6 @@ const SocialShare = [
 
 
 class Portfolio extends Component{
-  componentDidUpdate(prevProps) {
-    if (
-      this.props.location.pathname !== prevProps.location.pathname
-    ) {
-      window.scrollTo(0, 0);
-    }
-  }
 
 
     render(){
@@ -30,7 +23,7 @@ class Portfolio extends Component{
             <React.Fragment>
 
               <div id="personal-project">
-              </div>
+
                 <PageHelmet pageTitle='SortVis' />
                 <HeaderWhite homeLink="/" logo="symbol-dark" color="color-black"/>
                 {/* Start Breadcrump Area */}
@@ -119,8 +112,9 @@ class Portfolio extends Component{
                 </div>
                 {/* End Back To Top */}
 
-                <div id="contact">
-                    <CallAction />
+
+                  <CallAction />
+
                 </div>
 
             </React.Fragment>

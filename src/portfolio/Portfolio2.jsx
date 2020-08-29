@@ -16,7 +16,7 @@ class Portfolio extends Component{
         return(
             <React.Fragment>
               <div id="personal-project">
-              </div>
+
                 <PageHelmet pageTitle='Picture Run' />
                 <HeaderWhite homeLink="/" logo="symbol-dark" color="color-black"/>
                 {/* Start Breadcrump Area */}
@@ -108,9 +108,9 @@ class Portfolio extends Component{
                     </ScrollToTop>
                 </div>
                 {/* End Back To Top */}
-                <div id="contact">
-                    <CallAction />
-                </div>
+
+                  <CallAction />
+              </div>
 
             </React.Fragment>
         )

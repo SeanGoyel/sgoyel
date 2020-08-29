@@ -23,7 +23,7 @@ const Home = () => {
 
     return (
         <div className="active-dark">
-            <Helmet pageTitle="Portfolio Landing" />
+            <Helmet pageTitle="Home" />
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}

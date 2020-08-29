@@ -20,13 +20,13 @@ class Contact extends Component{
 
 
 
-          <div class="one-page active-dark" id="contact">
+          <div className="one-page active-dark" id="contact">
 
                 <PageHelmet pageTitle='Contact' />
 
                 <HeaderNotHome homeLink="/" logo="symbol-dark" color="color-white"/>
 
-                <div className="slider-activation slider-creative-agency with-particles">
+                <div className="slider-activation max-width slider-creative-agency with-particles">
                     <div className="frame-layout__particles">
                       <Particles
                           params={{
@@ -58,13 +58,13 @@ class Contact extends Component{
 
 
                  {/* Start Breadcrump Area */}
-                 <div className="ptb--120"></div>
+
                  <div className=" active-dark "  data-black-overlay="6">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Lets get in touch!</h2>
+                                    <h2 className="title theme-gradient">Let's get in touch!</h2>
                                 </div>
                             </div>
                         </div>
@@ -79,29 +79,39 @@ class Contact extends Component{
 
                         <div className="row">
                             {/* Start Single Address  */}
+
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="rn-address active-dark">
+                                <a href="tel:+1 604 600 2148">
+
                                     <div className="icon">
-                                        <FiPhone />
+                                    <FiPhone />
                                     </div>
+
                                     <div className="inner">
                                         <h4 className="title">Phone Number</h4>
-                                        <h6 className="title" href="tel:+1 604 600 2148">604 - 600 - 2148</h6>
+                                        <h6 className="title">604 - 600 - 2148</h6>
                                     </div>
+
+                                    </a>
                                 </div>
                             </div>
+
                             {/* End Single Address  */}
 
                             {/* Start Single Address  */}
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--50">
                                 <div className="rn-address active-dark">
+                                  <a href="mailto: seangoyel@hotmail.com">
                                     <div className="icon">
                                         <FiMail />
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
-                                        <h6 className="title" href="mailto: seangoyel@hotmail.com">seangoyel@hotmail.com</h6>
+                                        <h6 className="title">seangoyel@hotmail.com</h6>
                                     </div>
+
+                                    </a>
                                 </div>
                             </div>
                             {/* End Single Address  */}
@@ -127,7 +137,7 @@ class Contact extends Component{
 
 
 
-                <div class="lock-bottom">
+                <div className="lock-bottom">
                   <FooterTwo />
                 </div>
 

@@ -38,7 +38,7 @@ class TabsTwo extends Component{
                                             </li>
 
                                             <li>
-                                                <h6>MySQL</h6> Devloping skills through current courses and projects
+                                                <h6>MySQL</h6> Developing skills through current courses and projects
                                             </li>
                                         </ul>
                                     </div>
@@ -48,20 +48,20 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                        <ul>
                                            <li>
-                                               <p>SCSS</p> Developing skills through personal projects
+                                               <p>SCSS</p>
                                            </li>
                                            <li>
-                                               <h6>CSS</h6> Developing skills through personal projects
+                                               <h6>CSS</h6>
                                            </li>
                                            <li>
-                                               <h6>HTML</h6> Developing skills through personal projects
+                                               <h6>HTML</h6>
                                            </li>
 
                                            <li>
-                                               <h6>JSX</h6> Developing skills through personal projects
+                                               <h6>JSX</h6>
                                            </li>
                                            <li>
-                                               <h6>Liquid</h6> Developing skills while working on plugins and formatting for Eskil
+                                               <h6>Liquid</h6> 
                                            </li>
                                        </ul>
                                        </div>
@@ -99,7 +99,7 @@ class TabsTwo extends Component{
                                                <h6>Visual Studio Code</h6>
                                            </li>
                                            <li>
-                                               <h6>JUnit</h6> 
+                                               <h6>JUnit</h6>
                                            </li>
                                            <li>
                                                <h6>TDD</h6>
