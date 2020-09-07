@@ -28,7 +28,7 @@ class TabsTwo extends Component{
                                     <div className="single-tab-content">
                                         <ul>
                                             <li>
-                                                <p>Java</p> Strong understanding developed through courses and several personal projects
+                                                <h6>Java</h6> Strong understanding developed through courses and several personal projects
                                             </li>
                                             <li>
                                                 <h6>C/C++</h6> Strong understanding developed through courses and several projects and assignments
@@ -48,7 +48,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                        <ul>
                                            <li>
-                                               <p>SCSS</p>
+                                               <h6>SCSS</h6>
                                            </li>
                                            <li>
                                                <h6>CSS</h6>
@@ -61,7 +61,7 @@ class TabsTwo extends Component{
                                                <h6>JSX</h6>
                                            </li>
                                            <li>
-                                               <h6>Liquid</h6> 
+                                               <h6>Liquid</h6>
                                            </li>
                                        </ul>
                                        </div>
@@ -73,7 +73,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                        <ul>
                                            <li>
-                                               <p>React.js</p> Developing skills through personal projects
+                                               <h6>React.js</h6> Developing skills through personal projects
                                            </li>
                                            <li>
                                                <h6>Node.js</h6> Developing skills through personal projects
@@ -87,7 +87,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                        <ul>
                                            <li>
-                                               <p>IntelliJ</p>
+                                               <h6>IntelliJ</h6>
                                            </li>
                                            <li>
                                                <h6>Atom</h6>
