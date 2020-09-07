@@ -59,7 +59,7 @@ class Portfolio extends Component{
 
 
                                                 <div className="thumb mb--30 center">
-                                                    <a href="https://seangoyel.github.io/SortVis/" target="_blank">
+                                                    <a href="https://eskil.com.tr/" target="_blank">
                                                       <img src={`${process.env.PUBLIC_URL}/assets/images/portfolio/p4-image.png`} alt="Portfolio Image"/>
                                                     </a>
                                                 </div>
