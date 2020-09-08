@@ -32,26 +32,26 @@ class Portfolio extends Component{
                                       <div className="inner section-title text-left service-style--2 mb--30" color="color-white">
                                             <h3>Details</h3>
                                             <br></br>
+
                                             <div className="portfolio-view-list service-style--2 d-flex flex-wrap" color="color-white">
                                               <div className="port-view">
                                                   <h4>Foodimize is an application which gives the user the ability to see the effects and impacts of the food they eat. This application will record food along with the effects it has on the individual who consumes it. The collected data will be organized in a manner which provides users with the insight of which foods should be avoided and which should be ingested. </h4>
                                                 </div>
                                               </div>
                                               <br></br>
-                                              <br></br>
 
                                             <div className="portfolio-view-list service-style--2 d-flex flex-wrap" color="color-white">
                                               <div className="port-view">
                                                   <h4>Functionality</h4>
-                                                  <span>Adding, removing, sorting, summoning, editing food items.</span>
-                                                  <span>Data persistence: storing, retrieving and updating data into a file.</span>
-                                                  <span>Error checking and handling.</span>
-                                                  <span>The implementation of robust class structures.</span>
-                                                  <span>Ui interaction audio.</span>
+                                                  <span>Adding, removing, sorting, summoning, editing food items</span>
+                                                  <span>Data persistence: storing, retrieving and updating data into a file</span>
+                                                  <span>Error checking and handling</span>
+                                                  <span>The implementation of robust class structures</span>
+                                                  <span>Ui interaction audio</span>
                                                 </div>
 
                                                 <div className="port-view">
-                                                    <h4>Programing Practices</h4>
+                                                    <h4 style={{marginTop:"30px"}}>Programing Practices</h4>
                                                     <span>Black box testing with JUnit</span>
                                                     <span>Reading and creating UML diagrams</span>
                                                     <span>Implementing hierarchies</span>
@@ -61,15 +61,6 @@ class Portfolio extends Component{
                                                     <span>Adhering to the Liskov Substitution principle</span>
                                                 </div>
 
-
-                                                <div className="port-view">
-                                                    <h4>
-                                                      <div className="portfolio-view-list service-style--2 d-flex flex-wrap">
-                                                         <img src={`${process.env.PUBLIC_URL}/assets/images/portfolio/p3-image.png`} alt="Portfolio Image"/>
-                                                      </div>
-                                                    </h4>
-
-                                                </div>
 
                                             </div>
 
@@ -83,7 +74,9 @@ class Portfolio extends Component{
 
                                             <div className="portfolio-thumb-inner">
 
-
+                                                <div className="thumb mb--30 center">
+                                                     <img src={`${process.env.PUBLIC_URL}/assets/images/portfolio/p3-image.png`} alt="Portfolio Image"/>
+                                                </div>
 
                                             </div>
                                         </div>
