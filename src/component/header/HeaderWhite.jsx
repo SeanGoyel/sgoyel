@@ -100,11 +100,14 @@ class HeaderThree extends Component{
                                 ))}
                             </ul>
                         </div>
+                        {/*
                         <div className="header-btn">
                             <a className="rn-btn" target="_blank" href="https://images8.alphacoders.com/380/thumb-1920-380977.jpg">
                                 <span>Resume</span>
                             </a>
+
                         </div>
+                        */}
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">
                             <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>
