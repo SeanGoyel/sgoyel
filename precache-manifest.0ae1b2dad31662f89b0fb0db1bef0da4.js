@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0bb14cc152deb24b0d77f50d14db602e",
+    "revision": "41828c19228428820f8c75606b65d6d5",
     "url": "/SGoyel/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SGoyel/static/css/2.4ef2ce32.chunk.css"
   },
   {
-    "revision": "b1e1fee80ccf217cc290",
+    "revision": "3b29d010cfc707cd8581",
     "url": "/SGoyel/static/css/main.22989134.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SGoyel/static/js/2.d9d944ba.chunk.js"
   },
   {
-    "revision": "b1e1fee80ccf217cc290",
-    "url": "/SGoyel/static/js/main.ee927bde.chunk.js"
+    "revision": "3b29d010cfc707cd8581",
+    "url": "/SGoyel/static/js/main.9898e468.chunk.js"
   },
   {
     "revision": "c4c24bc68800c0263aff",
