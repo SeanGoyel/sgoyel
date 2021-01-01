@@ -50,9 +50,11 @@ class HeaderThree extends Component{
             var value = window.scrollY;
             if (document.querySelector('.header--fixed') != null){
             if (value > 100) {
-                document.querySelector('.header--fixed').classList.add('sticky')
+                document.querySelector('.header--fixed').classList.add('sticky');
+                document.querySelector('.header--fixed').classList.add(`${color}`);
             }else{
-              document.querySelector('.header--fixed').classList.remove('sticky')
+              document.querySelector('.header--fixed').classList.remove('sticky');
+              document.querySelector('.header--fixed').classList.remove(`${color}`);
             }
           }
         });
@@ -66,16 +68,16 @@ class HeaderThree extends Component{
                 }
             }
         }
-        const { color='default-color' } = this.props;
+        const { logo, color='default-color' } = this.props;
 
 
         return(
-            <header className={`header-area header-style-two header--fixed`}>
+            <header className={`header-area header-style-two header--fixed `}>
                 <div className="header-wrapper">
                     <div className="header-left d-flex align-items-center">
 
                         <nav className="mainmenunav d-lg-block ml--50">
-                            <Scrollspy className="mainmenu" items={['home','about','contact','personal-project']} currentClassName="is-current" offset={-200}>
+                            <Scrollspy className="mainmenu" items={['home','about','contact','project']} currentClassName="is-current" offset={-200}>
                                 <li><Link to="/#home">Home</Link></li>
                                 <li><Link to="/#about">About</Link></li>
                                 <li><Link to="/contact">Contact</Link></li>
