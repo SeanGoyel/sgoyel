@@ -36,6 +36,9 @@ class Portfolio extends Component{
                                 <div className="col-lg-12">
                                     <div className="portfolio-details">
                                       <div className="inner section-title text-left service-style--2 mb--30" color="color-white">
+
+
+
                                             <h3>Details</h3>
                                             <br></br>
                                             <div className="portfolio-view-list service-style--2 d-flex flex-wrap" color="color-white">
@@ -43,8 +46,15 @@ class Portfolio extends Component{
                                                   <h4>A CPSC 304 database project for cinema venues to mange and analyze their theatres, movies, showings and seatings plans.</h4>
                                                 </div>
                                               </div>
-                                              <br></br>
-                                              <br></br>
+
+                                              <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
+                                                  <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
+                                                      {SocialShare.map((val , i) => (
+                                                          <li key={i}><a target="_blank" href={`${val.link}`}>{val.Social}</a></li>
+                                                      ))}
+                                                  </ul>
+                                              </div>
+                                        
 
                                             <div className="portfolio-view-list service-style--2 d-flex flex-wrap" color="color-white">
 
@@ -57,25 +67,21 @@ class Portfolio extends Component{
                                                 </div>
 
                                             </div>
-
-                                            <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
-                                                <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
-                                                    {SocialShare.map((val , i) => (
-                                                        <li key={i}><a target="_blank" href={`${val.link}`}>{val.Social}</a></li>
-                                                    ))}
-                                                </ul>
-                                            </div>
+                                            <br></br>
+                                            <br></br>
 
                                             <div className="portfolio-thumb-inner">
-
                                                 <div className="thumb mb--30 center">
                                                   <img src={`${process.env.PUBLIC_URL}/assets/images/portfolio/p5-VenPlan.gif`} alt="Portfolio Image"/>
                                                 </div>
+
                                                 <div className="thumb mb--30 center">
                                                   <img src={`${process.env.PUBLIC_URL}/assets/images/portfolio/p5-VenPlan.png`} alt="Portfolio Image"/>
                                                 </div>
                                             </div>
+
                                         </div>
+
 
                                     </div>
                                 </div>
