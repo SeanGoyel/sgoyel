@@ -23,13 +23,13 @@ class Root extends Component{
 
           <Router basename={"/"}>
                <Switch>
-                  <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/SortVis`} component={Portfolio1}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/PictureRun`} component={Portfolio2}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/Foodimize`} component={Portfolio3}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/Eskil`} component={Portfolio4}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/VenPlan`} component={Portfolio5}/>
+                  <Route exact path="/" component={Home}/>
+                  <Route exact path="/contact" component={Contact}/>
+                  <Route exact path="/SortVis" component={Portfolio1}/>
+                  <Route exact path="/PictureRun" component={Portfolio2}/>
+                  <Route exact path="/Foodimize" component={Portfolio3}/>
+                  <Route exact path="/Eskil" component={Portfolio4}/>
+                  <Route exact path="/VenPlan" component={Portfolio5}/>
 
                </Switch>
           </Router>

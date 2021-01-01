@@ -78,17 +78,16 @@ class HeaderThree extends Component{
 
                         <nav className="mainmenunav d-lg-block ml--50">
                             <Scrollspy className="mainmenu" items={['home','about','contact','personal-project']} currentClassName="is-current" offset={-200}>
-                                <li><Link to={`${process.env.PUBLIC_URL}/#home`}>Home</Link></li>
-                                <li><Link to={`${process.env.PUBLIC_URL}/#about`}>About</Link></li>
-
-                                <li><Link to={`${process.env.PUBLIC_URL}/contact`}>Contact</Link></li>
+                                <li><Link to="/#home">Home</Link></li>
+                                <li><Link to="/#about">About</Link></li>
+                                <li><Link to="/contact">Contact</Link></li>
                                 <li className="has-droupdown "><Link to="#" >Personal Projects</Link>
                                     <ul className="submenu">
-                                        <li><Link to={`${process.env.PUBLIC_URL}/SortVis#project`}>SortVis</Link></li>
-                                        <li><Link to={`${process.env.PUBLIC_URL}/PictureRun#project`}>Picture Run</Link></li>
-                                        <li><Link to={`${process.env.PUBLIC_URL}/VenPlan#project`}>VenPlan</Link></li>
-                                        <li><Link to={`${process.env.PUBLIC_URL}/Foodimize#project`}>Foodimize</Link></li>
-                                        <li><Link to={`${process.env.PUBLIC_URL}/Eskil#project`}>Eskil</Link></li>
+                                        <li><Link to="/SortVis#project">SortVis</Link></li>
+                                        <li><Link to="/PictureRun#project">Picture Run</Link></li>
+                                        <li><Link to="/VenPlan#project">VenPlan</Link></li>
+                                        <li><Link to="/Foodimize#project">Foodimize</Link></li>
+                                        <li><Link to="/Eskil#project">Eskil</Link></li>
                                     </ul>
                                 </li>
 
