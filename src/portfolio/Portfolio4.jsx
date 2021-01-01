@@ -26,7 +26,7 @@ class Portfolio extends Component{
                 <PageHelmet pageTitle='Eskil' />
                 <HeaderWhite homeLink="/" logo="symbol-dark" color="color-black"/>
                 {/* Start Breadcrump Area */}
-                <Breadcrumb title={'Eskil'}  details={'E-commerce Website Desgin'} />
+                <Breadcrumb title={'Eskil'}  details={'E-commerce Website Design'} />
                 {/* End Breadcrump Area */}
                     {/* Start Portfolio Details */}
                     <div className="rn-portfolio-details ptb--120 bg_color--4">

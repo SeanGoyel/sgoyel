@@ -85,7 +85,7 @@ class Portfolio extends Component{
 
 
                                                 <div className="port-view">
-                                                    <h4>Desgin</h4>
+                                                    <h4>Design</h4>
                                                     <span>Separation of Concerns</span>
                                                 </div>
                                             </div>
