@@ -21,7 +21,7 @@ class Portfolio extends Component{
 
             <React.Fragment>
 
-              <div id="personal-project">
+              <div id="project">
 
                 <PageHelmet pageTitle='Eskil' />
                 <HeaderWhite homeLink="/" logo="symbol-dark" color="color-black"/>

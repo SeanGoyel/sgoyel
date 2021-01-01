@@ -13,7 +13,7 @@ import './index.scss';
 
 
 
-import { BrowserRouter, Switch, Route  } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -21,18 +21,18 @@ class Root extends Component{
     render(){
         return(
 
-          <BrowserRouter basename={"/"}>
+          <Router basename={"/"}>
                <Switch>
                   <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
                   <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/portfolio5`} component={Portfolio5}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/portfolio1`} component={Portfolio1}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/portfolio2`} component={Portfolio2}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/portfolio3`} component={Portfolio3}/>
-                  <Route exact path={`${process.env.PUBLIC_URL}/portfolio4`} component={Portfolio4}/>
+                  <Route exact path={`${process.env.PUBLIC_URL}/SortVis`} component={Portfolio1}/>
+                  <Route exact path={`${process.env.PUBLIC_URL}/PictureRun`} component={Portfolio2}/>
+                  <Route exact path={`${process.env.PUBLIC_URL}/Foodimize`} component={Portfolio3}/>
+                  <Route exact path={`${process.env.PUBLIC_URL}/Eskil`} component={Portfolio4}/>
+                  <Route exact path={`${process.env.PUBLIC_URL}/VenPlan`} component={Portfolio5}/>
 
                </Switch>
-          </BrowserRouter>
+          </Router>
 
         )
     }

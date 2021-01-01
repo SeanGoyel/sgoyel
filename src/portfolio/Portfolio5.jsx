@@ -22,7 +22,7 @@ class Portfolio extends Component{
 
             <React.Fragment>
 
-              <div id="personal-project">
+              <div id="project">
 
                 <PageHelmet pageTitle='VenPlan' />
                 <HeaderWhite homeLink="/" logo="symbol-dark" color="color-black"/>

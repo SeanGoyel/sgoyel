@@ -16,7 +16,7 @@ class Portfolio extends Component{
     render(){
         return(
             <React.Fragment>
-              <div id="personal-project">
+              <div id="project">
 
                 <PageHelmet pageTitle='Foodimize' />
                 <HeaderWhite homeLink="/" logo="symbol-dark" color="color-black"/>

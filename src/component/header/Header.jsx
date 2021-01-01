@@ -80,17 +80,17 @@ class HeaderThree extends Component{
 
                         <nav className="mainmenunav d-lg-block ml--50">
                             <Scrollspy className="mainmenu" items={['home','about','contact','personal-project']} currentClassName="is-current" offset={-200}>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
+                                <li><Link to={`${process.env.PUBLIC_URL}/#home`}>Home</Link></li>
+                                <li><Link to={`${process.env.PUBLIC_URL}/#about`}>About</Link></li>
 
                                 <li><Link to={`${process.env.PUBLIC_URL}/contact`}>Contact</Link></li>
                                 <li className="has-droupdown "><Link to="#" >Personal Projects</Link>
                                     <ul className="submenu">
-                                      <li><Link to={`${process.env.PUBLIC_URL}/portfolio1#personal-project`}>SortVis</Link></li>
-                                      <li><Link to={`${process.env.PUBLIC_URL}/portfolio2#personal-project`}>Picture Run</Link></li>
-                                      <li><Link to={`${process.env.PUBLIC_URL}/portfolio5#personal-project`}>VenPlan</Link></li>
-                                      <li><Link to={`${process.env.PUBLIC_URL}/portfolio3#personal-project`}>Foodimize</Link></li>
-                                      <li><Link to={`${process.env.PUBLIC_URL}/portfolio4#personal-project`}>Eskil</Link></li>
+                                      <li><Link to={`${process.env.PUBLIC_URL}/SortVis#project`}>SortVis</Link></li>
+                                      <li><Link to={`${process.env.PUBLIC_URL}/PictureRun#project`}>Picture Run</Link></li>
+                                      <li><Link to={`${process.env.PUBLIC_URL}/VenPlan#project`}>VenPlan</Link></li>
+                                      <li><Link to={`${process.env.PUBLIC_URL}/Foodimize#project`}>Foodimize</Link></li>
+                                      <li><Link to={`${process.env.PUBLIC_URL}/Eskil#project`}>Eskil</Link></li>
                                     </ul>
                                 </li>
 
