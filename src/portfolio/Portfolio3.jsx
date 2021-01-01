@@ -60,7 +60,7 @@ class Portfolio extends Component{
                                                 </div>
 
                                                 <div className="port-view">
-                                                    <h4 style={{marginTop:"30px"}}>Programing Practices</h4>
+                                                    <h4 style={{marginTop:"30px"}}>Programming Practices</h4>
                                                     <span>Black box testing with JUnit</span>
                                                     <span>Reading and creating UML diagrams</span>
                                                     <span>Implementing hierarchies</span>
